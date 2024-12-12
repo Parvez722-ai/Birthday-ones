@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slide" id="slide1">
+        <h1>Happy Birthday, Nishat Farhat Choudhury!</h1>
+        <p>Welcome to Our Love Story</p>
+        <button onclick="nextSlide(2)">Start</button>
+    </div>
+    <div class="slide" id="slide2">
+        <h1>Blow the Candle</h1>
+        <img src="https://via.placeholder.com/150" alt="Cake with Candles" class="cake">
+        <button onclick="blowCandle()">Blow the Candle</button>
+    </div>
+    <div class="slide" id="slide3">
+        <h1>Let's Explore Our Memories</h1>
+        <button onclick="nextSlide(4)">Next</button>
+    </div>
+    <div class="slide" id="slide4">
+        <div class="crumbled-paper">
+            <p>I love you</p>
+        </div>
+        <button onclick="nextPaper(5)">Next</button>
+    </div>
+    <div class="slide" id="slide5">
+        <div class="crumbled-paper">
+            <p>I love you</p>
+        </div>
+        <button onclick="nextPaper(6)">Next</button>
+    </div>
+    <div class="slide" id="slide6">
+        <div class="crumbled-paper">
+            <p>I love you</p>
+        </div>
+        <button onclick="nextSlide(7)">Next</button>
+    </div>
+    <div class="slide" id="slide7">
+        <div class="photo-montage">
+            <img src="https://via.placeholder.com/100" alt="Photo 1">
+            <img src="https://via.placeholder.com/100" alt="Photo 2">
+            <p>Again, Happy Birthday to my Babe. I have a special message for you.</p>
+        </div>
+        <button onclick="nextSlide(8)">Next</button>
+    </div>
+    <div class="slide" id="slide8">
+        <div class="lined-paper">
+            <p class="typing">You are mine forever</p>
+        </div>
+        <button onclick="nextSlide(9)">Next</button>
+    </div>
+    <div class="slide" id="slide9">
+        <h1>Will you be mine forever?</h1>
+        <button onclick="showProposal('yes')">Yes, of course, buddy!</button>
+        <button onclick="showProposal('no')">Not sure</button>
+    </div>
+    <div class="slide" id="proposal-yes" style="display:none;">
+        <p>🤵💍👰</p>
+    </div>
+    <div class="slide" id="proposal-no" style="display:none;">
+        <p>😢💔</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
